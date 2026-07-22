@@ -2,9 +2,6 @@ import React from 'react';
 import { CheckSquare, Mail, Lock, Sun, Moon } from 'lucide-react';
 import ToastList from './ToastList';
 
-// ---------------------------------------------------------
-// LoginPage — Shown when the user has no valid JWT token
-// ---------------------------------------------------------
 export default function LoginPage({
   theme,
   toggleTheme,
@@ -56,6 +53,8 @@ export default function LoginPage({
           </div>
           <h1 className="login-title">My Task Manager</h1>
           <p className="login-subtitle">Task Management Command Dashboard</p>
+          <br></br>
+          <br></br>
         </div>
 
         {/* Error banner */}

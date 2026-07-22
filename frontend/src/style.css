@@ -304,6 +304,7 @@ code {
   justify-content: center;
   padding: 48px;
   box-sizing: border-box;
+  
 }
 
 .bg-glow-1,
@@ -363,7 +364,7 @@ code {
   border-radius: 14px;
   box-shadow: 0 6px 18px rgba(47,188,160,0.18);
 }
-.login-title { font-size: 28px; margin: 4px 0 6px; color: var(--text-h); font-weight: 700; }
+.login-title { font-size: 28px; margin: 4px 0 6px; color: #f3f4f6; font-weight: 700; }
 .login-subtitle { font-size: 13px; color: var(--text-muted); margin: 0 0 12px; }
 
 .form-group { margin-bottom: 16px; text-align: left; }
