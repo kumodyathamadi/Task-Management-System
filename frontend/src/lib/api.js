@@ -4,7 +4,7 @@ import axios from 'axios';
 // Axios Custom Instance with JWT interceptor
 // ---------------------------------------------------------
 const api = axios.create({
-  baseURL: '/'
+  baseURL: 'http://localhost:5000'
 });
 
 api.interceptors.request.use((config) => {
