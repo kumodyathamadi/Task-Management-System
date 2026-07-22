@@ -50,11 +50,11 @@ export default function LoginPage({
         </button>
 
         {/* Header */}
-        <div className="login-header">
+          <div className="login-header">
           <div className="login-logo">
             <CheckSquare size={28} />
           </div>
-          <h1 className="login-title">Koncepthive</h1>
+          <h1 className="login-title">My Task Manager</h1>
           <p className="login-subtitle">Task Management Command Dashboard</p>
         </div>
 
